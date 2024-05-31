@@ -12,7 +12,7 @@ Explaining line by line.
 
 9 - EXPOSE - Describe which ports your application is listening on - aka exposing to the “outside world”/being accessible outside the container. Used for documentation purposes only.
 
-11 - CMD - Specify default commands - This is running app.mjs with the node command. The previous commands are executed when the image is created, but this one is only executed when the container is started. The syntax is an array with strings.
+11 - CMD - Specify default commands - This is running server.js with the node command. The previous commands are executed when the image is created, but this one is only executed when the container is started. The syntax is an array with strings.
 
 You can find more references [here](https://docs.docker.com/reference/dockerfile/)
 
